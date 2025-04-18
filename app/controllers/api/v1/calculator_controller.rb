@@ -1,5 +1,5 @@
 class Api::V1::CalculatorController < ApplicationController
-  def add
+  def string_calculator
     result = StringCalculator.calculate(params[:numbers])
     render json: { result: result }
   rescue => e

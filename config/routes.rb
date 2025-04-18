@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   # root "posts#index"
   namespace :api do
     namespace :v1 do
-      post 'calculate', to: 'calculator#add'
+      post 'calculate', to: 'calculator#string_calculator'
     end
   end
 end
