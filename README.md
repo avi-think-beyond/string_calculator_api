@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
+* Ruby version : 3.3.8
+* Setup the Project
+  - rails new string_calculator_api --api -T
+  - cd string_calculator_api
+  - bundle add rspec-rails
+  - rails generate rspec:install
 * How to run the test suite
+   - bundle exec rspec
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
